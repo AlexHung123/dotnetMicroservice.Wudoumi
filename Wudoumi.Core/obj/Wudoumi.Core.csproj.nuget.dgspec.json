@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yifen\\source\\repos\\Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj": {}
+    "C:\\Users\\yifen\\Desktop\\dotnet\\dotnetMicroservice.Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yifen\\source\\repos\\Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj": {
+    "C:\\Users\\yifen\\Desktop\\dotnet\\dotnetMicroservice.Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yifen\\source\\repos\\Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj",
+        "projectUniqueName": "C:\\Users\\yifen\\Desktop\\dotnet\\dotnetMicroservice.Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj",
         "projectName": "Wudoumi.Core",
-        "projectPath": "C:\\Users\\yifen\\source\\repos\\Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj",
+        "projectPath": "C:\\Users\\yifen\\Desktop\\dotnet\\dotnetMicroservice.Wudoumi\\Wudoumi.Core\\Wudoumi.Core.csproj",
         "packagesPath": "C:\\Users\\yifen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yifen\\source\\repos\\Wudoumi\\Wudoumi.Core\\obj\\",
+        "outputPath": "C:\\Users\\yifen\\Desktop\\dotnet\\dotnetMicroservice.Wudoumi\\Wudoumi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yifen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
